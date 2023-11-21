@@ -1,0 +1,9 @@
+1. API GATEWAY
+
+curl --location 'localhost:3000' \
+--header 'Content-Type: application/json' \
+--data '{
+    "item": "iphone",
+    "price" : "1000",
+    "userId": "345"
+}'
